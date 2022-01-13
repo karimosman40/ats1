@@ -116,6 +116,14 @@ $(function(){
 		$("#viewDestination a").on('click',function(e){
 			/* tracking of View Destinations button click begin
 			*/
+			ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'home',
+                        eventAction: 'click',
+                        eventLabel: 'view destinations'
+                         });
+			
+			
 
 			// tracking of View Destinations button click end
 		});
@@ -506,6 +514,11 @@ $(function(){
 				$('#paymentMethod').slideDown();
 
 				/* tracking of virtual page view on payment page begin
+				ga('send', {
+                                           hitType: 'pageview',
+                                            pagename: '/payment.html '
+                                             });
+				
 				*/
 
 				// tracking of virtual page view on payment page end
