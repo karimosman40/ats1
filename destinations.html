@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="ATS travel destinations" />
+	<title>Destinations | ATS Travel</title>
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- ATS Tracking on page load -->
+	<script type="text/javascript" src="js/atsTracking.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="./index.html">ATS Travel Site</a>
+				<ul class="nav">
+					<li class="active"><a href="./index.html">Home</a></li>
+					<li class="active"><a href="./destinations.html">Destinations</a></li>
+					<li><a id="cnxDcnx" href="./login.html">Log-in</a></li>
+					<li><a id="navBasketItems" href="basket.html">Basket <span></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+				<h1>ATS Travel</h1>
+				<p class="lead">The most luxurious way to travel the world.</p>
+		</div>
+	</header>
+	<div id="destination_filters">
+		<div class="container">
+			<div id="choix_categories">
+				<a href="destinations.html">All Destinations</a>
+				<a href="destinations.html?search=paradise-cities&cat=button">Paradise cities</a>
+				<a href="destinations.html?search=islands-in-the-sun&cat=button">Islands in the sun</a>
+			</div>
+			<form method="get" action="#"  id="search_destination">
+				<input type="search" placeholder="Enter a destination...">
+				<button type="submit">OK</button>
+			</form>
+		</div>	
+	</div>
+
+		<div class="container" id="destinations">
+		<div id="destinationsVideos"></div>
+			<div id="content-chooser">
+				<div class="page-header">
+					<h2>Lanzarote <small>Canary Islands - Spain - Europe</small></h2>
+				</div>
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/lanzarote_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/lanzarote_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/lanzarote_3.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Lanzarote</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#lanzarote">Details</a>
+							<a class="btn btn-primary videos" data-name="lanzarote">Video</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="page-header">
+					<h2>Paris <small>France - Europe</small></h2>
+				</div>
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/paris_1.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Paris</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#paris">Details</a>
+							<a class="btn btn-primary videos" data-name="paris">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/paris_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/paris_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				<div class="page-header">
+					<h2>Reunion <small>France - Europe</small></h2>
+				</div>
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/run_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/run_2.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Reunion</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+						<a class="btn btn-primary" href="details.html#reunion">Details</a>
+						<a class="btn btn-primary videos" data-name="reunion">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/run_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				
+				<!--SWITERLAND MENU-->
+				<div class="page-header">
+					<h2>Switzerland <small>Swiss Confederation - Europe</small></h2>
+				</div>
+				
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/switzerland_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/switzerland_2.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Switzerland</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#switzerland">Details</a>
+							<a class="btn btn-primary videos"  data-name="switzerland">Video</a>
+						</li>
+					
+						<li class="span3"><div class="thumbnail"><img src="./img/switzerland_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				<!-- MALLORCA-->
+				<div class="page-header">
+					<h2>Mallorca <small>Balearic Islands - Spain - Europe</small></h2>
+				</div>
+				
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/mallorca_1.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Mallorca</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#mallorca">Details</a>
+							<a class="btn btn-primary videos"  data-name="mallorca">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/mallorca_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/mallorca_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				
+				<!--SEVILLA -->
+				<div class="page-header">
+					<h2>Sevilla <small>Andalusia - Spain - Europe</small></h2>
+				</div>
+				
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3">
+							<h3>Sevilla</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#sevilla">Details</a>
+							<a class="btn btn-primary videos" data-name="sevilla">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/sevilla_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/sevilla_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/sevilla_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				<!--PUERTO RICO-->
+				<div class="page-header">
+					<h2>Puerto Rico <small>Caribbean, West Indies</small></h2>
+				</div>
+				
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/pr_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/pr_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/pr_3.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Puerto Rico</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#puertorico">Details</a>
+							<a class="btn btn-primary videos" data-name="puerto rico">Video</a>
+						</li>
+					</ul>
+				</div>
+				
+				<!--PROVIDENCE-->
+				<div class="page-header">
+					<h2>Providence <small>New Egland - Rhode Island - Usa</small></h2>
+				</div>
+				
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/prov_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/prov_2.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Providence</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#providence">Details</a>
+							<a class="btn btn-primary videos" data-name="providence">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/prov_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				<!--FUERTEVENTURA-->
+				<div class="page-header">
+					<h2>Fuerteventura <small>Canary Islands - Spain - Europe</small></h2>
+				</div>
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3"><div class="thumbnail"><img src="./img/fuerte_1.jpg" alt=""></div></li>
+						<li class="span3">
+							<h3>Fuerteventura</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#fuerteventura">Details</a>
+							<a class="btn btn-primary videos" data-name="fuerteventura">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/fuerte_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/fuerte_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+				
+				<!--SAN FRANCISCO-->
+				<div class="page-header">
+					<h2>San Francisco <small>California - The city by the bay - Usa</small></h2>
+				</div>
+				
+				<div class="row">
+					<ul class="thumbnails">
+						<li class="span3">
+							<h3>San Francisco</h3>
+							Vivamus dictum dictum felis ut dignissim. Ut nibh lectus, mollis ac laoreet ut, scelerisque congue ligula. Morbi gravida felis velit.
+							<br/><br/>
+							<a class="btn btn-primary" href="details.html#sanfrancisco">Details</a>
+							<a class="btn btn-primary videos" data-name="san francisco">Video</a>
+						</li>
+						<li class="span3"><div class="thumbnail"><img src="./img/sf_1.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/sf_2.jpg" alt=""></div></li>
+						<li class="span3"><div class="thumbnail"><img src="./img/sf_3.jpg" alt=""></div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <footer class="footer">
+			<div class="container">
+				<div id="externalLinks">
+					<ul>
+						<li><a href="http://www.fifty-five.com" target="_blank">55 Website</a></li>
+						<li><a href="https://www.facebook.com/55fiftyfive55/" target="_blank">Facebook</a></li>
+						<li><a href="https://twitter.com/55fiftyfive55" target="_blank">Twitter</a></li>
+						<li><a href="https://www.linkedin.com/company/fifty-five" target="_blank">LinkedIn</a></li>
+						<li><a href="/ATStravel/assets/brochure.pdf" target="_blank">Consultez notre brochure</a></li>
+					</ul>
+				</div>
+				<div id="newsletter-form">
+					<form method="post" action="#">
+						<input type="text" class="form-control" placeholder="Newsletter...">
+						<button type="submit">OK</button>
+					</form>
+					<div id="reponse"></div>
+				</div>
+			</div>
+		</footer>
+		<div id="disclaimer">
+			<div class="container">
+				<span>This is a demo site designed to showcase GTM. </span>
+				<a href="#">Back to top</a>
+			</div>
+		</div>
+	<script src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+	<!-- ATS Tracking after page load -->
+	<script type="text/javascript" src="js/atsTrackingAfterPageLoad.js"></script>
+</body>
+</html>

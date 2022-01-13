@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="ATS travel sign-in page" />
+	<title>Sign-In | ATS Travel</title>
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<!-- ATS Tracking on page load -->
+	<script type="text/javascript" src="js/atsTracking.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="./index.html">ATS Travel</a>
+				<ul class="nav">
+					<li class="active"><a href="./index.html">Home</a></li>
+					<li><a href="./destinations.html">Destinations</a></li>
+					<li><a  id="cnxDcnx" href="./login.html">Log-in</a></li>
+					<li><a id="navBasketItems" href="basket.html">Basket <span></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+				<h1>ATS Travel</h1>
+				<p class="lead">The most luxurious way to travel the world.</p>
+		</div>
+	</header>
+		<div class="container" id="main">	
+			<div id="msg"></div>
+			<form method="post" id="signInForm">
+				 <div class="form-group">
+					<label for="login">Username :</label>
+					<input  class="form-control" type="text" name="login" id="login55">
+				 </div>
+				 <div class="form-group">
+				    <label for="password">Password :</label>
+					<input  class="form-control" type="password" name="password" id="password55">
+				</div>
+				 <div class="form-group">
+					<input  class="btn btn-default" type="submit" name="connexion" value="Sign-in" id="cnx55" onclick="">
+				</div>
+			</form>
+	</div>
+                <footer class="footer">
+			<div class="container">
+				<div id="externalLinks">
+					<ul>
+						<li><a href="http://www.fifty-five.com" target="_blank">55 Website</a></li>
+						<li><a href="https://www.facebook.com/55fiftyfive55/" target="_blank">Facebook</a></li>
+						<li><a href="https://twitter.com/55fiftyfive55" target="_blank">Twitter</a></li>
+						<li><a href="https://www.linkedin.com/company/fifty-five" target="_blank">LinkedIn</a></li>
+						<li><a href="/ATStravel/assets/brochure.pdf" target="_blank">Consultez notre brochure</a></li>
+					</ul>
+				</div>
+				<div id="newsletter-form">
+					<form method="post" action="#">
+						<input type="text" class="form-control" placeholder="Newsletter...">
+						<button type="submit">OK</button>
+					</form>
+					<div id="reponse"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</div>
+	<script src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+	<!-- ATS Tracking after page load -->
+	<script type="text/javascript" src="js/atsTrackingAfterPageLoad.js"></script>
+</body>
+</html>
